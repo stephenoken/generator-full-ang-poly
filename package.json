@@ -1,0 +1,37 @@
+{
+  "name": "generator-full-ang-poly",
+  "version": "1.0.0",
+  "description": "A full stack yeoman generator for angular apps using express and gulp. Has optional polymer support.",
+  "main": "generators/app/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenoken/generator-full-ang-poly.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "gulp",
+    "angular",
+    "jasmine",
+    "polymer"
+  ],
+  "author": {
+    "name": "Stephen O'Kennedt",
+    "email": "stephenoken@gmail.com",
+    "url": "https://github.com/stephenoken"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephenoken/generator-full-ang-poly/issues"
+  },
+  "homepage": "https://github.com/stephenoken/generator-full-ang-poly#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jasmine": "^2.0.1"
+  }
+}
